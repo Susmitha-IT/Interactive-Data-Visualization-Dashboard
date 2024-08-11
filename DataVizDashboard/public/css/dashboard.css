@@ -1,0 +1,87 @@
+#chartContainer {
+    width: 100%;
+    height:380px;
+}
+.chart-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.card {
+flex: 0 1 calc(50% - 10px); /* Adjust the width to ensure two cards per row with some space */
+margin: 5px; /* Add margin to create space between cards */
+}
+
+@media (max-width: 768px) {
+.card {
+flex: 1 1 100%; /* On smaller screens, each card will take full width */
+}
+}
+
+#chartdiv {
+    width: 100%;
+    height: 370px;
+    position: relative;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+}
+.map {
+    width: 100%;
+    flex-basis: 100%; 
+}
+.map-container {
+    margin-top: 0px;
+    height:550px;
+}
+.label-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top:15px;
+}
+.label-button.active {
+    background-color: #0056b3;
+}
+#treemap-container {
+    width: 30vw; /* Adjust width to reduce the size */
+    height: 40vh; /* Adjust height to reduce the size */
+    margin: 20px auto; /* Center the container with margin */
+    position: relative;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+#pestleChart {
+    width: 90%;
+    max-height: 360px;
+    margin: 0 auto;
+}
