@@ -16,6 +16,7 @@ CSV Import: Maatwebsite Excel
 - RESTful API Endpoints: Retrieve data for visualization and analytics.
 - Interactive Dashboards: Visualize data using Chart.js and amCharts.
 - Dynamic Filters: Apply filters for end year, topics, sector, region, PEST, source, SWOT, country, and city.
+- Geolocation Features: The GeoNames API is used to dynamically fetch latitude and longitude for countries, which are then plotted on interactive maps.
 
 [Watch the execution video](https://drive.google.com/file/d/1uQQqP6MRrH4RZe7Kk3jQNHe7z_7ZLG3Z/view?usp=drive_link)
 
