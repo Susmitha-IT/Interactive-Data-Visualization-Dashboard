@@ -1,4 +1,4 @@
-# Interactive-Data-Visualization-Dashboard-using-Chart.js-amCharts-and-PHP-Laravel-
+# Interactive Data Visualization Dashboard using Chart.js amCharts (Laravel)
 
 This project provides a RESTful API developed with Laravel to support interactive data visualization dashboards. The dashboards utilize Chart.js and amCharts for dynamic and engaging data presentations.
 
