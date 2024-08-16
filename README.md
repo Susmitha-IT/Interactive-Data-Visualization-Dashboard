@@ -12,6 +12,7 @@ Database: MySQL (phpmyadmin)
 CSV Import: Maatwebsite Excel
 
 ## Features
+- User Authentication: Used Laravel form validator, session and middleware.
 - CSV Data Import: Upload and import CSV data into the database.
 - RESTful API Endpoints: Retrieve data for visualization and analytics.
 - Interactive Dashboards: Visualize data using Chart.js and amCharts.
