@@ -1,12 +1,6 @@
 # Interactive Data Visualization Dashboard
 
-This project provides a RESTful API developed with Laravel to support interactive data visualization dashboards. The dashboards utilize Chart.js and amCharts for dynamic and engaging data presentations.
-
-## Technologies Used
-Backend: Laravel (PHP Framework)
-Data Visualization: Chart.js, amCharts
-Database: MySQL (phpmyadmin)
-CSV Import: Maatwebsite Excel
+A Laravel-based RESTful API project powering dynamic dashboards with Chart.js and amCharts for rich data visualization and analytics.
 
 ## Features
 - User Authentication: Used Laravel form validator, session and middleware.
